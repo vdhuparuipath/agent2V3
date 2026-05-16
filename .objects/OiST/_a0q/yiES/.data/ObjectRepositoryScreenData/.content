@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="9e1ge6l9k0qK13YuK8g3uw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" Selector="&lt;html app='chrome.exe' title='Tesla stock price - Claude' /&gt;" Url="claude.ai/chat/eb45d4b2-f3ca-41f4-bfcf-de6fbbf3ee88" />
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

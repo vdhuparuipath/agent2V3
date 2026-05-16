@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fpnakYXUkUiMxtW6rIci0Q" Reference="Vm7FIwLwAECU1FD0nE-aDQ/swOGuLh-p0KrJzHawyAqQQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="claude.ai/project/019d1cec-9761-77a0-9a53-5de9629c6d2d" DesignTimeRectangle="190, 341, 682, 48" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;fieldset&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='main-content' tag='DIV' /&gt;" Guid="dcf656b5-56e4-4f2f-accd-1358ec99307b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Claude' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="4c63c6b5a7ac51ef7bfbf86a82dc2be0.jpg" xmlns="">0CR6x69Mo8E6_jeNLVNDoQw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">KeyboardShortcut</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

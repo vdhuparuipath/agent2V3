@@ -1,0 +1,6 @@
+{
+  "Name": "Agent2 V3",
+  "ProjectType": "Process",
+  "Description": "V3 Version ",
+  "MainFile": "Main.xaml"
+}

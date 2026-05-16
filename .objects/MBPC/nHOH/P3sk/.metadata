@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Claude(1)",
+  "Type": "Screen",
+  "Id": "P3skU3gzRUyu5OGuhitzaw",
+  "Reference": "Vm7FIwLwAECU1FD0nE-aDQ/P3skU3gzRUyu5OGuhitzaw",
+  "ParentRef": "Vm7FIwLwAECU1FD0nE-aDQ/nHOHIm-NCke0GXzfWc57vA",
+  "Created": "2026-03-27T15:26:49.8610299Z",
+  "Updated": "2026-03-27T15:26:49.8610299Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

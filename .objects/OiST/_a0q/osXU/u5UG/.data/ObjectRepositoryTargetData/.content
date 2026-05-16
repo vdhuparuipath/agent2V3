@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="C6YGrHkR6EC36N5gkMfvGw" Reference="Vm7FIwLwAECU1FD0nE-aDQ/u5UGl4Vza0ypz-AvnivDvQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="claude.ai/chat/75b46a34-6ab7-4c52-86b4-abe7d925a5a4" DesignTimeRectangle="709, 963, 32, 32" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-label='Copy' tag='BUTTON' type='button' data-testid='action-bar-copy' parentid='main-content' idx='2' /&gt;" Guid="b1c004b3-ed65-47f7-8f6a-f56eb34f87db" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*Claude*' /&gt;" SearchSteps="Selector, SemanticSelector" SemanticSelectorArgument="The last copy button on the page" Version="V6" WaitForReadyArgument="None" />
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

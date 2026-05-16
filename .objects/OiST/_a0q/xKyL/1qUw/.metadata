@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Scroll Claude Response to Bottom",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "1qUwOole_kKYNcD5yLjn3A",
+  "Reference": "Vm7FIwLwAECU1FD0nE-aDQ/1qUwOole_kKYNcD5yLjn3A",
+  "ParentRef": "Vm7FIwLwAECU1FD0nE-aDQ/xKyLLxq1KE6dLamf0JtnVQ",
+  "Created": "2026-05-15T04:53:10.73873Z",
+  "Updated": "2026-05-15T04:53:10.73873Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.32.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

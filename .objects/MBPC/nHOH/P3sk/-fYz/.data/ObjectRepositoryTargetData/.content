@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Q027DQioNEa2qXCYuJ74lA" Reference="Vm7FIwLwAECU1FD0nE-aDQ/-fYzwMP1lEKNyafYSqPpcA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="claude.ai/project/019d1cec-9761-77a0-9a53-5de9629c6d2d" DesignTimeRectangle="705, 619, 182, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='text-sm' tag='DIV' aaname='Extended*' /&gt;" Guid="0bd27314-8bdd-4577-b48f-877a55a2c2fd" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Claude' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="042bae3059d05bdee0afc280a4cea269.jpg" xmlns="">0Ri6ESIKg30iaB9fTdamECQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

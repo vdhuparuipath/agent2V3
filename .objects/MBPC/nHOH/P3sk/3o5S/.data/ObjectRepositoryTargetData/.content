@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Qto1ZQiwwkexq5xs8hO0aA" Reference="Vm7FIwLwAECU1FD0nE-aDQ/3o5SOxh5EkGAnnAjYa9pBA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="claude.ai/project/019d1cec-9761-77a0-9a53-5de9629c6d2d" DesignTimeRectangle="853, 401, 93, 32" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='_r_jg_' matching:id='fuzzy' fuzzylevel:id='0.0' tag='BUTTON' type='button' aaname='Opus*' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Opus 4.6*' /&gt;" Guid="5236e80f-d362-4584-8499-ac67b050671c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Claude' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="863, 410, 59, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Opus*' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' parentid='_r_jg_' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' tag='DIV' type='' class='whitespace-nowrap select-none' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Opus 4.6' /&gt;" Guid="a4e6c849-1d46-46b3-802a-382fbaa7a28b" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="180df2e5e907a0bbd9dca2d240a101df.jpg" xmlns="">00YKDtiE1XU699r-L98svsA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

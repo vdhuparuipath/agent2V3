@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3tE0RlLwGUGqkrzVnLaT_w" Reference="Vm7FIwLwAECU1FD0nE-aDQ/1qUwOole_kKYNcD5yLjn3A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="claude.ai/chat/75b46a34-6ab7-4c52-86b4-abe7d925a5a4" DesignTimeRectangle="709, 963, 32, 32" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-label='Copy' tag='BUTTON' type='button' data-testid='action-bar-copy' parentid='main-content' idx='2' /&gt;" Guid="faa28991-be95-4ef8-8cff-092a4d14b586" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TSLA bullish breakout analysis - Claude' /&gt;" SearchSteps="Selector, SemanticSelector" SemanticSelectorArgument="The last copy button on the page" Version="V6" WaitForReadyArgument="None" />
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
