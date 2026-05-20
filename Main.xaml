@@ -145,7 +145,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="533,7067" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="612,5977" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="ugdm:GDriveLocalItem" Name="gmailFile" />
       <Variable x:TypeArguments="x:String" Name="agentPrompt" />
@@ -177,7 +177,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:DeleteFileX DisplayName="Delete Local Prompt File" sap:VirtualizedContainerService.HintSize="524,113" sap2010:WorkflowViewState.IdRef="DeleteFileX_8" Path="[&quot;C:\AgentResponses\&quot; + in_agentFileName]">
+    <ui:DeleteFileX DisplayName="Delete Local Prompt File" sap:VirtualizedContainerService.HintSize="488,113" sap2010:WorkflowViewState.IdRef="DeleteFileX_8" Path="[&quot;C:\AgentResponses\&quot; + in_agentFileName]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
@@ -185,30 +185,30 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:DeleteFileX>
-    <ui:DeleteFileX DisplayName="Delete Local Response File" sap:VirtualizedContainerService.HintSize="524,113" sap2010:WorkflowViewState.IdRef="DeleteFileX_7" Path="[&quot;C:\AgentResponses\&quot; + in_responseFileName]">
+    <ui:DeleteFileX DisplayName="Delete Local Response File" sap:VirtualizedContainerService.HintSize="488,113" sap2010:WorkflowViewState.IdRef="DeleteFileX_7" Path="[&quot;C:\AgentResponses\&quot; + in_responseFileName]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:DeleteFileX>
-    <ui:LogMessage DisplayName="Log Agent Name Argument" sap:VirtualizedContainerService.HintSize="524,175" sap2010:WorkflowViewState.IdRef="LogMessage_12" Message="[&quot;Agent Name from argument value is : &quot; + in_agentName]">
+    <ui:LogMessage DisplayName="Log Agent Name Argument" sap:VirtualizedContainerService.HintSize="488,175" sap2010:WorkflowViewState.IdRef="LogMessage_12" Message="[&quot;Agent Name from argument value is : &quot; + in_agentName]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:LogMessage>
-    <ui:LogMessage DisplayName="Log Agent File Name Argument" sap:VirtualizedContainerService.HintSize="524,175" sap2010:WorkflowViewState.IdRef="LogMessage_13" Message="[&quot;Agent File Name from argument value is : &quot; +in_agentFileName]">
+    <ui:LogMessage DisplayName="Log Agent File Name Argument" sap:VirtualizedContainerService.HintSize="488,175" sap2010:WorkflowViewState.IdRef="LogMessage_13" Message="[&quot;Agent File Name from argument value is : &quot; +in_agentFileName]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:LogMessage>
-    <ui:LogMessage DisplayName="Log Response File Name Argument" sap:VirtualizedContainerService.HintSize="524,175" sap2010:WorkflowViewState.IdRef="LogMessage_14" Message="[&quot;Response File Name from argument value is : &quot; +in_responseFileName]" />
-    <ui:LogMessage DisplayName="Log Agent Wait Timeout Argument" sap:VirtualizedContainerService.HintSize="524,175" sap2010:WorkflowViewState.IdRef="LogMessage_15" Message="[&quot;Agent Timeout Value for Check Element is  : &quot; +in_agentWaitingTimeout.ToString]" />
-    <Assign DisplayName="Set Prompt Search Name" sap:VirtualizedContainerService.HintSize="524,175" sap2010:WorkflowViewState.IdRef="Assign_2">
+    <ui:LogMessage DisplayName="Log Response File Name Argument" sap:VirtualizedContainerService.HintSize="488,175" sap2010:WorkflowViewState.IdRef="LogMessage_14" Message="[&quot;Response File Name from argument value is : &quot; +in_responseFileName]" />
+    <ui:LogMessage DisplayName="Log Agent Wait Timeout Argument" sap:VirtualizedContainerService.HintSize="488,175" sap2010:WorkflowViewState.IdRef="LogMessage_15" Message="[&quot;Agent Timeout Value for Check Element is  : &quot; +in_agentWaitingTimeout.ToString]" />
+    <Assign DisplayName="Set Prompt Search Name" sap:VirtualizedContainerService.HintSize="488,175" sap2010:WorkflowViewState.IdRef="Assign_2">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[trimAgentFileName]</OutArgument>
       </Assign.To>
@@ -222,7 +222,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </Assign>
-    <uga:GetFileListConnections ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" FolderIdBackup="{x:Null}" ManualEntryLocation="{x:Null}" QueryFilter="{x:Null}" AllLabels="W10=" AuthScopesInvalid="False" BrowserLocation="https://drive.google.com/drive/folders/1nk5kLC9a3xM4ncPsQNvtVNb5G07JnCpV" ConnectionId="1128310c-3c78-4505-aed3-3891c1e6b953" DisplayName="Find Prompt File in Drive" FilterSelectionMode="ConditionBuilder" sap:VirtualizedContainerService.HintSize="524,185" sap2010:WorkflowViewState.IdRef="GetFileListConnections_3" LocationFriendlyName="apiprompts" LocationInputMode="Browse" MaxResults="200" Result="[getFileList]" StarredOnly="False" UseConnectionService="True" WhatToReturn="Files">
+    <uga:GetFileListConnections ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" FolderIdBackup="{x:Null}" ManualEntryLocation="{x:Null}" QueryFilter="{x:Null}" AllLabels="W10=" AuthScopesInvalid="False" BrowserLocation="https://drive.google.com/drive/folders/1nk5kLC9a3xM4ncPsQNvtVNb5G07JnCpV" ConnectionId="1128310c-3c78-4505-aed3-3891c1e6b953" DisplayName="Find Prompt File in Drive" FilterSelectionMode="ConditionBuilder" sap:VirtualizedContainerService.HintSize="488,185" sap2010:WorkflowViewState.IdRef="GetFileListConnections_3" LocationFriendlyName="apiprompts" LocationInputMode="Browse" MaxResults="200" Result="[getFileList]" StarredOnly="False" UseConnectionService="True" WhatToReturn="Files">
       <uga:GetFileListConnections.Filter>
         <ugadf:FileFilterArgument LogicalOperator="And">
           <ugadf:FileFilterArgument.Filters>
@@ -262,7 +262,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </uga:GetFileListConnections>
-    <uga:DownloadFileConnections BrowserFileId="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" File="{x:Null}" FileFriendlyName="{x:Null}" ManualEntryFileId="{x:Null}" Result="{x:Null}" AuthScopesInvalid="False" ConflictResolution="Replace" ConnectionId="1128310c-3c78-4505-aed3-3891c1e6b953" DestinationPath="[&quot;C:\\AgentResponses\\&quot; + in_agentFileName]" DisplayName="Download Prompt File" DownloadDocumentAs="Word" DownloadDrawingAs="Jpeg" DownloadPresentationAs="Ppt" DownloadSpreadsheetAs="Xlsx" FileInputMode="UrlOrId" sap:VirtualizedContainerService.HintSize="524,185" sap2010:WorkflowViewState.IdRef="DownloadFileConnections_3" ManualFileId="[getFileList(0).Id]" NewResult="[gmailFile]" UseConnectionService="True">
+    <uga:DownloadFileConnections BrowserFileId="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" File="{x:Null}" FileFriendlyName="{x:Null}" ManualEntryFileId="{x:Null}" Result="{x:Null}" AuthScopesInvalid="False" ConflictResolution="Replace" ConnectionId="1128310c-3c78-4505-aed3-3891c1e6b953" DestinationPath="[&quot;C:\\AgentResponses\\&quot; + in_agentFileName]" DisplayName="Download Prompt File" DownloadDocumentAs="Word" DownloadDrawingAs="Jpeg" DownloadPresentationAs="Ppt" DownloadSpreadsheetAs="Xlsx" FileInputMode="UrlOrId" sap:VirtualizedContainerService.HintSize="488,185" sap2010:WorkflowViewState.IdRef="DownloadFileConnections_3" ManualFileId="[getFileList(0).Id]" NewResult="[gmailFile]" UseConnectionService="True">
       <uga:DownloadFileConnections.FileIdBackup>
         <usau:BackupSlot x:TypeArguments="ugade:EDriveItemMode" x:Name="__ReferenceID0" StoredValue="UrlOrId">
           <usau:BackupSlot.BackupValues>
@@ -287,33 +287,33 @@
         </ugam:DriveItemArgument>
       </uga:DownloadFileConnections.Item>
     </uga:DownloadFileConnections>
-    <ui:ReadTextFile FileName="{x:Null}" Content="[agentPrompt]" DisplayName="Read Prompt File" File="[LocalResource.FromPath(&quot;C:\\AgentResponses\\&quot; + in_agentFileName)]" sap:VirtualizedContainerService.HintSize="524,124" sap2010:WorkflowViewState.IdRef="ReadTextFile_3" />
-    <ui:LogMessage DisplayName="Log Prompt Read From File" sap:VirtualizedContainerService.HintSize="524,175" sap2010:WorkflowViewState.IdRef="LogMessage_16" Message="[&quot;First message from read text file&quot; + agentPrompt]" />
-    <uix:NSetClipboard DisplayName="Copy Prompt to Clipboard" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="524,123" sap2010:WorkflowViewState.IdRef="NSetClipboard_5" Text="[agentPrompt]" Version="V5" />
-    <ui:LogMessage DisplayName="Log Prompt Sent to Clipboard" sap:VirtualizedContainerService.HintSize="524,175" sap2010:WorkflowViewState.IdRef="LogMessage_17" Message="[agentPrompt]" />
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Claude(2)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="524,4340" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Always]" ScopeGuid="e39f86eb-3d88-438c-b59c-055972e1d164" Version="V2" WindowResize="Maximize">
+    <ui:ReadTextFile FileName="{x:Null}" Content="[agentPrompt]" DisplayName="Read Prompt File" File="[LocalResource.FromPath(&quot;C:\\AgentResponses\\&quot; + in_agentFileName)]" sap:VirtualizedContainerService.HintSize="488,124" sap2010:WorkflowViewState.IdRef="ReadTextFile_3" />
+    <ui:LogMessage DisplayName="Log Prompt Read From File" sap:VirtualizedContainerService.HintSize="488,175" sap2010:WorkflowViewState.IdRef="LogMessage_16" Message="[&quot;First message from read text file&quot; + agentPrompt]" />
+    <uix:NSetClipboard DisplayName="Copy Prompt to Clipboard" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="488,123" sap2010:WorkflowViewState.IdRef="NSetClipboard_5" Text="[agentPrompt]" Version="V5" />
+    <ui:LogMessage DisplayName="Log Prompt Sent to Clipboard" sap:VirtualizedContainerService.HintSize="488,175" sap2010:WorkflowViewState.IdRef="LogMessage_17" Message="[agentPrompt]" />
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Claude(2)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,3250" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Always]" ScopeGuid="e39f86eb-3d88-438c-b59c-055972e1d164" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="522,4137" sap2010:WorkflowViewState.IdRef="Sequence_23">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,3047" sap2010:WorkflowViewState.IdRef="Sequence_23">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Delay DisplayName="Wait for Claude Page" Duration="00:00:05" sap:VirtualizedContainerService.HintSize="488,123" sap2010:WorkflowViewState.IdRef="Delay_3">
+            <Delay DisplayName="Wait for Claude Page" Duration="00:00:05" sap:VirtualizedContainerService.HintSize="452,123" sap2010:WorkflowViewState.IdRef="Delay_3">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </Delay>
-            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="488,57" sap2010:WorkflowViewState.IdRef="CommentOut_6">
+            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="CommentOut_6">
               <ui:CommentOut.Body>
-                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="504,894" sap2010:WorkflowViewState.IdRef="Sequence_26">
+                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="486,894" sap2010:WorkflowViewState.IdRef="Sequence_26">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -377,14 +377,14 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:CommentOut>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'DIV(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="488,194" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e39f86eb-3d88-438c-b59c-055972e1d164" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click on TextBox for copying prompt" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e39f86eb-3d88-438c-b59c-055972e1d164" Version="V5">
               <uix:NClick.Target>
-                <uix:TargetAnchorable BrowserURL="claude.ai/project/019d1cec-9761-77a0-9a53-5de9629c6d2d" ContentHash="PRDlg5CdEke2f1Jw9fYWGA" DesignTimeRectangle="190, 341, 682, 48" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;fieldset&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='main-content' tag='DIV' /&gt;" Guid="9eb43143-4704-49a4-b101-50d72eb7d958" InformativeScreenshot="4c63c6b5a7ac51ef7bfbf86a82dc2be0.jpg" Reference="Vm7FIwLwAECU1FD0nE-aDQ/iV9U83Z12ky35XGnBbK4CA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Claude' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                <uix:TargetAnchorable BrowserURL="claude.ai/project/019d1cec-9761-77a0-9a53-5de9629c6d2d" ContentHash="W0b8tbbjvEOMOnjsmQMltw" DesignTimeRectangle="349, 347, 604, 23" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='textbox' tag='DIV' data-testid='chat-input' /&gt;" Guid="9fb71dbe-792c-4a5b-8747-7049bf58cf5e" InformativeScreenshot="e17e847d976f9a89c5ca19e796a9971e.jpg" Reference="Vm7FIwLwAECU1FD0nE-aDQ/iV9U83Z12ky35XGnBbK4CA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Claude' /&gt;" SearchSteps="Selector, SemanticSelector" SemanticSelectorArgument="The input field to type a message or query to the AI assistant.&#xA;" Version="V6" WaitForReadyArgument="None" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="[UiPath.UIAutomationNext.Enums.NClickMode.Single]" DisplayName="Keyboard Shortcuts 'DIV'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="488,329" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_3" InteractionMode="HardwareEvents" ScopeIdentifier="e39f86eb-3d88-438c-b59c-055972e1d164" Shortcuts="[d(hk)][d(ctrl)]v[u(ctrl)][u(hk)]" Version="V5">
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="[UiPath.UIAutomationNext.Enums.NClickMode.Single]" DisplayName="Keyboard Shortcuts 'DIV'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,329" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_3" InteractionMode="HardwareEvents" ScopeIdentifier="e39f86eb-3d88-438c-b59c-055972e1d164" Shortcuts="[d(hk)][d(ctrl)]v[u(ctrl)][u(hk)]" Version="V5">
               <uix:NKeyboardShortcuts.Target>
-                <uix:TargetAnchorable BrowserURL="claude.ai/project/019d1cec-9761-77a0-9a53-5de9629c6d2d" ContentHash="fpnakYXUkUiMxtW6rIci0Q" DesignTimeRectangle="190, 341, 682, 48" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;fieldset&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='main-content' tag='DIV' /&gt;" Guid="dcf656b5-56e4-4f2f-accd-1358ec99307b" InformativeScreenshot="4c63c6b5a7ac51ef7bfbf86a82dc2be0.jpg" Reference="Vm7FIwLwAECU1FD0nE-aDQ/swOGuLh-p0KrJzHawyAqQQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Claude' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                <uix:TargetAnchorable BrowserURL="claude.ai/project/019d1cec-9761-77a0-9a53-5de9629c6d2d" ContentHash="YUPlG-EWrkSoqmyZYOlePw" DesignTimeRectangle="349, 347, 604, 23" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='textbox' tag='DIV' data-testid='chat-input' /&gt;" Guid="4d88dcb8-aea9-4b1d-8e2b-36d282436905" InformativeScreenshot="e288c7f078ec20d1efd65215228dd256.jpg" Reference="Vm7FIwLwAECU1FD0nE-aDQ/swOGuLh-p0KrJzHawyAqQQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Claude' /&gt;" SearchSteps="Selector, SemanticSelector" SemanticSelectorArgument="The input field to type a message or query to the AI assistant.&#xA;" Version="V6" WaitForReadyArgument="None" />
               </uix:NKeyboardShortcuts.Target>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -392,24 +392,24 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NKeyboardShortcuts>
-            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Submit Claude Prompt" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="488,257" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_4" InteractionMode="HardwareEvents" ScopeIdentifier="e39f86eb-3d88-438c-b59c-055972e1d164" Shortcuts="[d(hk)][k(Enter)][u(hk)]" Version="V5">
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Submit Claude Prompt" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,257" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_4" InteractionMode="HardwareEvents" ScopeIdentifier="e39f86eb-3d88-438c-b59c-055972e1d164" Shortcuts="[d(hk)][k(Enter)][u(hk)]" Version="V5">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NKeyboardShortcuts>
-            <ui:RetryScope LogRetriedExceptions="{x:Null}" RetriedExceptionsLogLevel="{x:Null}" DisplayName="Wait for Claude Response and Scroll" sap:VirtualizedContainerService.HintSize="488,1796" sap2010:WorkflowViewState.IdRef="RetryScope_2" NumberOfRetries="[Math.Max(1, CInt(Math.Ceiling(CDbl(in_agentWaitingTimeout) / 15000.0)))]" RetryInterval="00:00:10">
+            <ui:RetryScope LogRetriedExceptions="{x:Null}" RetriedExceptionsLogLevel="{x:Null}" DisplayName="Wait for Claude Response and Scroll" sap:VirtualizedContainerService.HintSize="452,706" sap2010:WorkflowViewState.IdRef="RetryScope_2" NumberOfRetries="[Math.Max(1, CInt(Math.Ceiling(CDbl(in_agentWaitingTimeout) / 15000.0)))]" RetryInterval="00:00:10">
               <ui:RetryScope.ActivityBody>
                 <ActivityAction>
-                  <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="486,1508" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                  <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="450,418" sap2010:WorkflowViewState.IdRef="Sequence_12">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:CommentOut DisplayName="Disabled Copy Panel Detection" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+                    <ui:CommentOut DisplayName="Disabled Copy Panel Detection" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="CommentOut_1">
                       <ui:CommentOut.Body>
                         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="486,1198" sap2010:WorkflowViewState.IdRef="Sequence_18">
                           <sap:WorkflowViewStateService.ViewState>
@@ -467,7 +467,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:CommentOut>
-                    <ui:CommentOut DisplayName="Disabled Copy Panel Close" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+                    <ui:CommentOut DisplayName="Disabled Copy Panel Close" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="CommentOut_2">
                       <ui:CommentOut.Body>
                         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,25" sap2010:WorkflowViewState.IdRef="Sequence_19">
                           <sap:WorkflowViewStateService.ViewState>
@@ -518,7 +518,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:CommentOut>
-                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="CommentOut_8">
+                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="CommentOut_8">
                       <ui:CommentOut.Body>
                         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,277" sap2010:WorkflowViewState.IdRef="Sequence_28">
                           <sap:WorkflowViewStateService.ViewState>
@@ -544,9 +544,9 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:CommentOut>
-                    <ui:WaitUiElementAppear WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Wait for Response Copy Button" FoundElement="[foundElement1]" sap:VirtualizedContainerService.HintSize="452,139" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_5">
+                    <ui:WaitUiElementAppear WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Wait for Response Copy Button" FoundElement="[foundElement1]" sap:VirtualizedContainerService.HintSize="416,139" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_5">
                       <ui:WaitUiElementAppear.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="66007294-fc54-4b3f-a253-ec07d759226b" InformativeScreenshot="c093c018b49df1c65305935d2fe245f1" Selector="&lt;webctrl aria-label='Give positive feedback' tag='BUTTON' type='button' /&gt;" TimeoutMS="[in_agentWaitingTimeout]">
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="66007294-fc54-4b3f-a253-ec07d759226b" InformativeScreenshot="c093c018b49df1c65305935d2fe245f1" Selector="&lt;webctrl aria-label='Give positive feedback' tag='BUTTON' type='button' /&gt;" TimeoutMS="[Math.Max(in_agentWaitingTimeout, 5000)]">
                           <ui:Target.WaitForReady>
                             <InArgument x:TypeArguments="ui:WaitForReady" />
                           </ui:Target.WaitForReady>
@@ -559,7 +559,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:WaitUiElementAppear>
-                    <uix:NCheckState DisplayName="Check App State 'Download' Button" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,1138" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="e39f86eb-3d88-438c-b59c-055972e1d164" Version="V5">
+                    <uix:NCheckState DisplayName="Check App State 'Download' Button" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="e39f86eb-3d88-438c-b59c-055972e1d164" Version="V5">
                       <uix:NCheckState.IfExists>
                         <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,401" sap2010:WorkflowViewState.IdRef="Sequence_13">
                           <sap:WorkflowViewStateService.ViewState>
@@ -613,8 +613,8 @@
                       </uix:NCheckState.Target>
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </uix:NCheckState>
@@ -623,7 +623,7 @@
               </ui:RetryScope.ActivityBody>
               <ui:RetryScope.Condition>
                 <ActivityFunc x:TypeArguments="x:Boolean">
-                  <ui:CheckTrue ErrorMessage="{x:Null}" DisplayName="Confirm Response Copy Button Exists" Expression="[foundElement1 isNot Nothing]" sap:VirtualizedContainerService.HintSize="462,131" sap2010:WorkflowViewState.IdRef="CheckTrue_2">
+                  <ui:CheckTrue ErrorMessage="{x:Null}" DisplayName="Confirm Response Copy Button Exists" Expression="[foundElement1 isNot Nothing]" sap:VirtualizedContainerService.HintSize="426,131" sap2010:WorkflowViewState.IdRef="CheckTrue_2">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
@@ -638,7 +638,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:RetryScope>
-            <If Condition="[downloadExists = True]" DisplayName="Use Downloaded JSON When Available" sap:VirtualizedContainerService.HintSize="488,1321" sap2010:WorkflowViewState.IdRef="If_2">
+            <If Condition="[downloadExists = True]" DisplayName="Use Downloaded JSON When Available" sap:VirtualizedContainerService.HintSize="452,1321" sap2010:WorkflowViewState.IdRef="If_2">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
@@ -738,7 +738,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </uix:NApplicationCard>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="524,57" sap2010:WorkflowViewState.IdRef="CommentOut_4">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="488,57" sap2010:WorkflowViewState.IdRef="CommentOut_4">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="486,344" sap2010:WorkflowViewState.IdRef="Sequence_24">
           <sap:WorkflowViewStateService.ViewState>
@@ -796,15 +796,15 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <ui:WriteTextFile FileName="{x:Null}" DisplayName="Write Claude Response File" File="[LocalResource.FromPath(&quot;C:\\AgentResponses\\&quot; +in_responseFileName)]" sap:VirtualizedContainerService.HintSize="524,176" sap2010:WorkflowViewState.IdRef="WriteTextFile_2" Output="[outputFile]" Text="[agentResponse]">
+    <ui:WriteTextFile FileName="{x:Null}" DisplayName="Write Claude Response File" File="[LocalResource.FromPath(&quot;C:\\AgentResponses\\&quot; +in_responseFileName)]" sap:VirtualizedContainerService.HintSize="488,176" sap2010:WorkflowViewState.IdRef="WriteTextFile_2" Output="[outputFile]" Text="[agentResponse]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:WriteTextFile>
-    <ui:LogMessage DisplayName="Log Claude Response" sap:VirtualizedContainerService.HintSize="524,175" sap2010:WorkflowViewState.IdRef="LogMessage_18" Message="[agentResponse]" />
-    <uga:UploadFilesConnections ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" DestinationFolder="{x:Null}" FilesList="{x:Null}" FirstResult="{x:Null}" FolderIdBackup="{x:Reference __ReferenceID1}" ManualFolderId="{x:Null}" OverwriteExistingFile="{x:Null}" SingleFileToUpload="{x:Null}" AllResults="[files]" AuthScopesInvalid="False" BrowseFolderId="https://drive.google.com/drive/folders/1OeWVYHApYlwFw8QHbr3xcLcXqCQcgj-W" ConflictResolution="Replace" ConnectionId="1128310c-3c78-4505-aed3-3891c1e6b953" Convert="False" DisplayName="Upload Response File to Drive" FilesInputMode="MultipleByVariable" FolderInputMode="Browse" sap:VirtualizedContainerService.HintSize="524,228" sap2010:WorkflowViewState.IdRef="UploadFilesConnections_2" MultipleFilesToUpload="[New List(Of ILocalResource) From {outputFile}]" SaveToFolderName="apiresponse" UseConnectionService="True">
+    <ui:LogMessage DisplayName="Log Claude Response" sap:VirtualizedContainerService.HintSize="488,175" sap2010:WorkflowViewState.IdRef="LogMessage_18" Message="[agentResponse]" />
+    <uga:UploadFilesConnections ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" DestinationFolder="{x:Null}" FilesList="{x:Null}" FirstResult="{x:Null}" FolderIdBackup="{x:Reference __ReferenceID1}" ManualFolderId="{x:Null}" OverwriteExistingFile="{x:Null}" SingleFileToUpload="{x:Null}" AllResults="[files]" AuthScopesInvalid="False" BrowseFolderId="https://drive.google.com/drive/folders/1OeWVYHApYlwFw8QHbr3xcLcXqCQcgj-W" ConflictResolution="Replace" ConnectionId="1128310c-3c78-4505-aed3-3891c1e6b953" Convert="False" DisplayName="Upload Response File to Drive" FilesInputMode="MultipleByVariable" FolderInputMode="Browse" sap:VirtualizedContainerService.HintSize="488,228" sap2010:WorkflowViewState.IdRef="UploadFilesConnections_2" MultipleFilesToUpload="[New List(Of ILocalResource) From {outputFile}]" SaveToFolderName="apiresponse" UseConnectionService="True">
       <uga:UploadFilesConnections.FilesBackup>
         <usau:BackupSlot x:TypeArguments="ugade:FilesInputMode" StoredValue="MultipleByVariable">
           <usau:BackupSlot.BackupValues>
